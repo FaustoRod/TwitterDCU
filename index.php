@@ -24,7 +24,7 @@
 				<div class="header-item">
 				</div>
 			</div>
-		</head>
+		</header>
 		<script type="text/javascript" src="JavaScript/javascript.js"></script>
 		<script type="text/javascript" src="JavaScript/jquery-3.1.1.min.js"></script>
 		<script type="text/javascript" src="JavaScript/bootstrap.min.js"></script>
