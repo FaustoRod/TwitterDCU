@@ -1,9 +1,5 @@
-<?php
-	session_start();
-?>
 <!DOCTYPE html>
 <html>
-vefnlekfnelkn
 
 	<head>
 		<title>FreePost</title>
