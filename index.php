@@ -7,11 +7,14 @@
 	<head>
 		<title>ReTech</title>
 		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<script src="jquery-3.1.1.min.js"></script>
+		<script src="bootstrap.min.js">	</script>
 	</head>
-	
+
 	<body>
 		<header>
-			<div class="header-main">			
+			<div class="header-main">
 				<div class="header-item logo-cont">
 					<div class="logo">
 						<img src="assets/logo.png" style="width:100%;height:100%;">
