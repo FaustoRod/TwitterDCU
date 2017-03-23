@@ -10,6 +10,7 @@
 
 body{
 	margin: 0;
+	overflow: auto;
 }
 
 html,body{
@@ -38,7 +39,11 @@ header{
 	flex-grow: 1;
 	flex-shrink: 1;
 	margin:10px;
+	border: 1px solid white;
+	width: 33.33%;
 }
+
+
 
 .header-item > h1{
 	font-family:neon;
@@ -63,8 +68,7 @@ header{
 }
 
 .index-login{
-	background-color: #4816AD	
-;
+	background-color: #4816AD;
 	display: flex;
 	flex-direction: column;
 	border-bottom-right-radius: 5px;
@@ -103,8 +107,27 @@ header{
 color: white;
 }
 
+.main-user{
+	display: flex;
+	flex-direction: row;
+}
 
+.main-cont{
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	width:80%;
+	max-height:1024px;
+	height: 100%;
+	border: 1px solid black;
+}
 
-
-
+.section-comentario{
+	margin:auto;
+	width: 80%;
+	height: auto;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
 
