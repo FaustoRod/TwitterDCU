@@ -52,7 +52,7 @@
 						</form>
 					</div>
 					<div id="signup-text-cont">
-						<p>Don't have an account <a href="index.php">Sign up!</a></p>
+						<p>Don't have an account <a href="registrarse.php">Sign up!</a></p>
 					</div>
 				</div>	
 		</div>

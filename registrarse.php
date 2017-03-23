@@ -15,6 +15,7 @@
 				<div class="header-item">
 				</div>
 				<div class="header-item">
+					<h1>FreePost</h1>
 				</div>
 				<div class="header-item">
 				</div>
