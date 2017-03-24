@@ -32,7 +32,7 @@
 						<img class="img-responsive" src="assets/pic.jpg" style="width:100%;height:100%; filter:grayscale(100%);border-bottom-left-radius:5px; border-top-left-radius:5px;">
 					</div>
 				</div>
-			
+
 				<div class="index-cont-item index-login">
 					<div id="title-login">
 						<h1>Log In</h1>
@@ -43,7 +43,7 @@
 								<span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
 								<input id="user" name="user" value="" type="text" class="form-control" placeholder="Usuario">
 							</div>
-							
+
 							<div class="input-group">
 								<span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
 								<input id="pass" name="pass" type="password" class="form-control" placeholder="Password">
@@ -52,9 +52,9 @@
 						</form>
 					</div>
 					<div id="signup-text-cont">
-						<p>Don't have an account <a href="index.php">Sign up!</a></p>
+						<p>Don't have an account <a href="registrarse.php">Sign up!</a></p>
 					</div>
-				</div>	
+				</div>
 		</div>
 		<script type="text/javascript" src="JavaScript/javascript.js"></script>
 		<script type="text/javascript" src="JavaScript/jquery-3.1.1.min.js"></script>
