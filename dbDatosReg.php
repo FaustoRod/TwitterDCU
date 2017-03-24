@@ -5,23 +5,31 @@
 // se insertan en la BD
 
 // Include Database, descomentalo o agraga la extencion donde esta la conexion
-// include("database.php");
+ include("database.php");
 
 
 $nombreReg=$_POST['nombreReg'];
+$apellidoReg=$_POST['apellidoReg'];
 $correoReg=$_POST['correoReg'];
 $passwordReg=$_POST['passReg'];
-$fotoPerfil=$_POST['fotoPerfil'];
+$nombreUsr=$_POST['usuarioReg'];
 
-$query="insert into usuarios (nombreCompleto,correo,password,fotoPerfil)
-values('$nombreReg','$correoReg','$passwordReg','$fotoPerfil')";
+
+  $target = "Assets/".basename($_FILES['fotoPerfil']['name']);
+	$imagen = $_FILES['fotoPerfil']['name'];
+
+	move_uploaded_file($_FILES['fotoPerfil']['tmp_name'], $target);
+
+
+$query="insert into usuarios (nombre,apellido,correo,usuario,password,fotoPerfil)
+values('$nombreReg','$apellidoReg','$correoReg','$nombreUsr','$passwordReg','$imagen')";
 
 if($result=mysqli_query($con,$query)){
   echo "<script> alert('Registro correcto')</script>";
-  header("Location: registrarse.php");
+  header("Location: index.php");
 }
 else {
-  echo "<script> alert('Registro Fallido')</script>";
+  echo "error ";
   header("Location: registrarse.php");
 }
 
