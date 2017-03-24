@@ -17,12 +17,12 @@
 		<header>
 			<div class="header-main container-fluid">
 				<div class="header-item main-user">
-					<img src="assets/avatar.png" style="width:100px;height:100%;margin:auto;border-radius:20px;border:1px solid white;">
+					<img src="assets/avatar.png" style="width:100px;height:100%;margin:auto;border-radius:20px;border:1px solid white;cursor: pointer;">
 					
 				</div>
 
 				<div class="header-item">
-					<h1>FreePost</h1>
+					<h1 style="cursor: pointer;">FreePost</h1>
 				</div>
 
 				<div class="header-item">
@@ -63,6 +63,18 @@
 			<div class="comentario-reply">
 				<a class="btn btn-primary">Reply</a>
 			</div>
+			<div class="panel-group">
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<h4 class="panel-title">
+							<a data-toggle="collapse" href="#respuestas">Comentarios</a>
+						</h4>
+					</div>
+					<div id="respuestas" class="panel-collapse collapse">
+						
+					</div>
+				</div>
+			</div>		
 		</div>
 				
 				<div class="comentario-box">
@@ -89,6 +101,18 @@
 			<div class="comentario-reply">
 				<a class="btn btn-primary">Reply</a>
 			</div>
+			<div class="panel-group">
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<h4 class="panel-title">
+							<a data-toggle="collapse" href="#respuestas">Comentarios</a>
+						</h4>
+					</div>
+					<div id="respuestas" class="panel-collapse collapse">
+						
+					</div>
+				</div>
+			</div>		
 		</div>
 			</div>
 		</div>

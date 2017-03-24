@@ -112,6 +112,8 @@ color: white;
 	flex-direction: row;
 }
 
+.main-user > img:hover
+
 .main-cont{
 	margin: auto;
 	display: flex;
