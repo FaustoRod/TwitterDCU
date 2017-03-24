@@ -15,6 +15,7 @@
 				<div class="header-item">
 				</div>
 				<div class="header-item">
+					<h1>FreePost</h1>
 				</div>
 				<div class="header-item">
 				</div>
@@ -27,11 +28,13 @@
         <h3><strong>Ingrese sus datos para el registro</strong></h3>
 
       </div>
-      <form enctype="multipart/form-data" action="" method="post" id="formReg">
-        <div class="form-group">
-          <label for="Nombre">Nombre:</label>
-          <input autofocus required class="form-control"  placeholder="Ingrese Su Nombre" name="nombreReg" id="nombreReg">
-        </div>
+      <form class="tamForm" enctype="multipart/form-data" action="dbDatosReg.php" method="post" id="formReg">
+
+					<div class="form-group">
+						<label for="Nombre">Nombre:</label>
+						<input autofocus required class="form-control"  placeholder="Ingrese Su Nombre" name="nombreReg" id="nombreReg">
+
+					</div>
 
         <div class="form-group">
           <label for="Apellido">Apellido:</label>
@@ -43,9 +46,14 @@
           <input required class="form-control" placeholder="Ingrese Su Correo" name="correoReg" id="correoReg">
         </div>
 
+				<div class="form-group">
+          <label for="Usuario">Usuario</label>
+          <input required class="form-control" placeholder="Ingrese nombre de usuario" name="usuarioReg" type="text" id="usuarioReg">
+        </div>
+
         <div class="form-group">
           <label for="Contraseña">Contraseña:</label>
-          <input required class="form-control" placeholder="Ingrese Su Contraseña" name="passReg" id="passReg">
+          <input required class="form-control"  placeholder="Ingrese Su Contraseña" name="passReg" id="passReg">
         </div>
 
         <div class="form-group">
@@ -61,6 +69,8 @@
         <div class="imgPreview">
           <img class="img-thumbnail" src="" alt="Imagen Preview" id="imgPreview" >
         </div>
+
+
 
 
       </form>
